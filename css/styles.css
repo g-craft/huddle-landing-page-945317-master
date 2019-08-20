@@ -1,0 +1,180 @@
+body {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: OpenSans;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+img {
+  margin-right: 5px;
+}
+
+/*-----------top---------*/
+.top {
+  max-width: 1440px;
+  margin: 0 auto 50px;
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-size: cover;
+  background-color: hsl(193, 100%, 96%);
+  padding: 20px 50px 20px 50px;
+}
+
+.top-right {
+  width: 80%;
+  padding: 5%;
+}
+
+.logo-top {
+  width: 15%;
+  padding-bottom: 30px;
+}
+
+.button1 {
+  position: absolute;
+  right: 13%;
+  background-color: white;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 16px;
+}
+
+.button2 {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-radius: 16px;
+}
+
+/*-----------middle---------*/
+.middle {
+  line-height: 2;
+  border-style: groove;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #f0f0f0;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.middle-text {
+  margin: auto;
+  text-align: left;
+}
+
+.middle-img {
+  width: 85%;
+  padding: 0 10px;
+}
+
+/*-----------bottom---------*/
+.bottom1 {
+  width: 40%;
+  min-width: 440px;
+  margin: auto;
+  text-align: center;
+  border-style: groove;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #f0f0f0;
+  padding: 20px;
+  position: relative;
+  top: 50px;
+  background-color: white;
+}
+
+.bottom1-text {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+
+.bottom2 {
+  max-width: 1440px;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  margin: 0 auto 0;
+  padding: 90px 50px 20px 50px;
+}
+
+.button3 {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  width: 300px;
+  height: 35px;
+  border: none;
+  border-radius: 16px;
+}
+
+.logo-bottom {
+  padding-bottom: 20px;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+
+.copyright {
+  font-size: 10px;
+  padding-top: 100px;
+}
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* media query */
+@media (max-width:992px) {
+  .col-lg-6 {
+    text-align: center;
+  }
+
+  .middle-img {
+    width: 50%;
+    max-width: 270px;
+    padding-bottom: 20px;
+  }
+
+  .middle {
+    margin: auto auto 20px;
+    max-width: 95%;
+    text-align: center;
+  }
+
+  .middle-text {
+    text-align: center;
+  }
+
+  .top {
+    background-image: url(../images/bg-hero-mobile.svg);
+  }
+  .col1 {
+    padding-bottom: 30px;
+  }
+
+  .col3 {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .copyright {
+        padding-top: 20px;
+  }
+}
